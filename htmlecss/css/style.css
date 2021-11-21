@@ -5,7 +5,7 @@ body {
     margin: auto;
 }
 
-#title, .subtitle, .posttitle {
+#title, .subtitle, .posttitle, .rodapepost {
     color: #505050;
 }
 
@@ -20,6 +20,7 @@ body {
     border-radius: 50%;
     border: 1px solid #585757;
     max-width: 40%;
+    max-height: 5%;
 }
 
 a {
@@ -40,6 +41,13 @@ a {
     border: 3px solid #505050;
     margin-bottom: 15px;
     border-radius: 5px;
+}
+
+.rodapepost {
+    font-size: 12px;
+    font-style: italic;
+    float: right;
+    margin: 0;
 }
 
 .postcontent {
